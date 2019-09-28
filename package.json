@@ -1,0 +1,50 @@
+{
+    "name": "@micro-app/plugin-webpack-hard-source",
+    "version": "0.0.1",
+    "description": "[Plugin] adapter webpack plugin of hard-source.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "files": [
+        "src"
+    ],
+    "homepage": "https://github.com/MicrosApp/MicroApp-Plugin-Webpack-Hard-Source",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MicrosApp/MicroApp-Plugin-Webpack-Hard-Source.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MicrosApp/MicroApp-Plugin-Webpack-Hard-Source/issues"
+    },
+    "keywords": [
+        "micro",
+        "micro-app",
+        "plugin",
+        "hard-source",
+        "webpack"
+    ],
+    "author": {
+        "name": "Zyao89",
+        "email": "zyao89@gmail.com"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "@micro-app/core": ">=0.1.7",
+        "@micro-app/plugin-webpack-adapter": ">=0.0.5"
+    },
+    "devDependencies": {
+        "@micro-app/cli": "0.1.6",
+        "@micro-app/core": "0.1.7",
+        "@micro-app/plugin-webpack-adapter": "^0.0.5",
+        "@types/jest": "^24.0.18",
+        "babel-eslint": "^10.0.3",
+        "coveralls": "^3.0.6",
+        "eslint": "^5.16.0",
+        "eslint-config-2o3t": "^1.1.17",
+        "jest": "^24.9.0"
+    },
+    "dependencies": {
+        "hard-source-webpack-plugin": "^0.10.2"
+    }
+}
