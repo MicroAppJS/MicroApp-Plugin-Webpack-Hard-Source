@@ -1,6 +1,6 @@
 {
     "name": "@micro-app/plugin-webpack-hard-source",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "[Plugin] adapter webpack plugin of hard-source.",
     "main": "src/index.js",
     "scripts": {
@@ -34,17 +34,17 @@
         "@micro-app/plugin-webpack-adapter": ">=0.0.5"
     },
     "devDependencies": {
-        "@micro-app/cli": "0.1.6",
-        "@micro-app/core": "0.1.7",
-        "@micro-app/plugin-webpack-adapter": "^0.0.5",
-        "@types/jest": "^24.0.18",
+        "@micro-app/cli": "0.2.0",
+        "@micro-app/core": "0.2.0",
+        "@micro-app/plugin-webpack-adapter": "^0.1.0",
+        "@types/jest": "^24.0.19",
         "babel-eslint": "^10.0.3",
-        "coveralls": "^3.0.6",
+        "coveralls": "^3.0.7",
         "eslint": "^5.16.0",
         "eslint-config-2o3t": "^1.1.17",
         "jest": "^24.9.0"
     },
     "dependencies": {
-        "hard-source-webpack-plugin": "^0.10.2"
+        "hard-source-webpack-plugin": "^0.13.1"
     }
 }
