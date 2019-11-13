@@ -9,13 +9,13 @@
     "files": [
         "src"
     ],
-    "homepage": "https://github.com/MicrosApp/MicroApp-Plugin-Webpack-Hard-Source",
+    "homepage": "https://github.com/MicroAppJS/MicroApp-Plugin-Webpack-Hard-Source",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MicrosApp/MicroApp-Plugin-Webpack-Hard-Source.git"
+        "url": "git+https://github.com/MicroAppJS/MicroApp-Plugin-Webpack-Hard-Source.git"
     },
     "bugs": {
-        "url": "https://github.com/MicrosApp/MicroApp-Plugin-Webpack-Hard-Source/issues"
+        "url": "https://github.com/MicroAppJS/MicroApp-Plugin-Webpack-Hard-Source/issues"
     },
     "keywords": [
         "micro",
