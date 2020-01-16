@@ -47,7 +47,7 @@ module.exports = function WebpackHardSource(api, opts = {}) {
     logger.debug(`[WebpackHardSource] excludeModule: \n${JSON.stringify(excludeModule, false, 4)}`);
 
     // 修改 webpack 配置, 此修改会对所有模块进行使用.
-    api.modifyChainWebpcakConfig(webpackChainConfig => {
+    api.modifyChainWebpackConfig(webpackChainConfig => {
 
         webpackChainConfig.plugin('hard-source')
             .use(HardSourceWebpackPlugin, [
